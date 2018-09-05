@@ -39,7 +39,7 @@ window.onload = function () {
   });
 
   $("#getJSONBtn").click(function () {
-    $.getJSON('https://api.github.com/users/JamesRileydev')
+    $.getJSON('http://letsrevolutionizetesting.com/challenge')
     .done(function(data){
       console.log(data);
     })
